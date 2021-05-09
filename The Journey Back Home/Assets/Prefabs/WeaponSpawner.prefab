@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2489597740983932962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4296134111512557039}
+  - component: {fileID: 3239100148345664152}
+  m_Layer: 0
+  m_Name: WeaponSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4296134111512557039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2489597740983932962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.34, y: -2.63, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3239100148345664152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2489597740983932962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d00a3978bc2cf04a833b9eaa616689b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rarity: 0
+  weaponpickups:
+  - {fileID: 5229238853488208847, guid: c89112fea34e84b40ae74d0276db0811, type: 3}
+  - {fileID: 5934902234697962101, guid: 9176e2226438f254aac453cec8ca165e, type: 3}
+  - {fileID: 7748103328863973603, guid: b75fbae14f4277c40852e43c5b851205, type: 3}
+  - {fileID: 5810108696712216427, guid: a275692a4fb36b64ea4412f1c47de199, type: 3}
+  - {fileID: 8014708615753345550, guid: af2b2915040fc4e4e8c49bae29ddb797, type: 3}
+  - {fileID: 3399513392764710299, guid: 4fd8e06efc35aa34e9472b4f13de28d9, type: 3}
